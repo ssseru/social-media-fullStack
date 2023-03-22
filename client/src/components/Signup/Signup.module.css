@@ -1,0 +1,32 @@
+.form {
+  display: block;
+  border: 1px solid black;
+  padding: 1rem;
+  margin: 1rem auto 1rem auto;
+  width: 40%;
+  border-radius: 1rem;
+  box-shadow: 2px 4px var(--secondary-color);
+}
+
+.formInput,
+.formInput:focus {
+  background-color: var(--quad-color);
+  box-shadow: none;
+}
+
+.heading {
+  font-size: xx-large;
+  font-weight: bolder;
+}
+
+.desc {
+  font-size: x-small;
+}
+
+.btn,
+.btn:focus,
+.btn:hover {
+  background-color: var(--tertiary-color);
+  border: none;
+  color: var(--primary-color);
+}

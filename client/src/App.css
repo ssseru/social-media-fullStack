@@ -1,0 +1,11 @@
+:root {
+  --primary-color: #fafafa;
+  --secondary-color: #000;
+  --tertiary-color: #841818;
+  --quad-color: #dfdce3;
+}
+
+body {
+  background-color: var(--primary-color);
+  font-family: Arial, Helvetica, sans-serif;
+}

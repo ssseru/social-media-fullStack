@@ -1,0 +1,110 @@
+.profileSection {
+  display: block;
+  border: 1px solid black;
+  margin: 1rem auto 1rem auto;
+  padding: 1rem;
+  width: 40%;
+  border-radius: 0.5rem;
+  max-height: 70vh;
+  box-shadow: 2px 4px var(--secondary-color);
+  word-wrap: break-word;
+  overflow-y: auto;
+}
+
+.profileSection::-webkit-scrollbar {
+  width: 5px;
+}
+
+.profileSection::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.profileSection::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 1rem;
+}
+
+.profileHeading {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  padding-bottom: 1rem;
+  border-bottom: 1px dashed black;
+}
+
+.userName {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.backBtn {
+  text-decoration: none;
+  color: var(--primary-color);
+  background-color: var(--tertiary-color);
+  border-radius: 2rem;
+  padding: 1px;
+  height: fit-content;
+}
+
+.backBtn:hover {
+  background-color: var(--quad-color);
+  color: var(--tertiary-color);
+  border: 1px solid var(--tertiary-color);
+}
+
+.sendBtn {
+  background-color: var(--tertiary-color);
+  border: none;
+  font-size: small;
+  border-radius: 2rem;
+  float: right;
+}
+.sendBtn:hover {
+  background-color: var(--quad-color);
+  color: var(--tertiary-color);
+  border: 1px solid var(--tertiary-color);
+}
+
+.receiverUser {
+  font-size: 0.5rem;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.receiverUser hr {
+  width: 100%;
+  height: 0;
+  padding: 0;
+  margin: 0;
+}
+
+.senderUser {
+  font-size: 0.5rem;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+.senderUser hr {
+  width: 100%;
+  height: 0;
+  padding: 0;
+  margin: 0;
+}
+
+.userMessage {
+  font-size: 1rem;
+}
+
+.messageInput {
+  display: flex;
+}
+
+.formInput,
+.formInput:focus {
+  background-color: var(--quad-color);
+  box-shadow: none;
+  border-radius: 2rem;
+}

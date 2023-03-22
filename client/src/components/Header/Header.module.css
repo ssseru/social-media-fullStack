@@ -1,0 +1,53 @@
+.button {
+  border: none;
+  background-color: transparent;
+  color: var(--secondary-color);
+}
+
+.button:hover {
+  background-color: transparent;
+}
+
+.header {
+  height: 4rem;
+  background-color: var(--primary-color);
+  box-shadow: 0 0 0.5rem 0 var(--quad-color);
+}
+
+.navItem {
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-size: 1rem;
+  font-weight: 300;
+  padding: 0 0.5rem 0 0.5rem;
+}
+
+.navItem:hover {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
+.navItemActive {
+  text-decoration: none;
+  color: var(--primary-color);
+  padding: 0 0.5rem 0 0.5rem;
+  font-size: 1rem;
+  font-weight: 300;
+  background-color: var(--secondary-color);
+  border-radius: 1rem;
+}
+.navItemActive:hover {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.brand {
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.brand:hover {
+  color: var(--secondary-color);
+}

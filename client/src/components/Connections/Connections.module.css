@@ -1,0 +1,21 @@
+.profileSection {
+  display: block;
+  border: 1px solid black;
+  margin: 1rem auto 1rem auto;
+  padding: 1rem;
+  width: 40%;
+  border-radius: 1rem;
+  height: 50vh;
+  box-shadow: 2px 4px var(--secondary-color);
+}
+
+.profileHeading {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.userList {
+  /* display: block; */
+  text-decoration: none;
+  color: var(--secondary-color);
+}

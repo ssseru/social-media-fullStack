@@ -1,0 +1,42 @@
+.profileSection {
+  display: block;
+  border: 1px solid black;
+  margin: 1rem auto 1rem auto;
+  padding: 1rem;
+  width: 40%;
+  border-radius: 1rem;
+  height: 50vh;
+  box-shadow: 2px 4px var(--secondary-color);
+  scroll-behavior: auto;
+}
+
+.profileHeading {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.profileBtn,
+.profileBtn:hover,
+.profileBtn:focus {
+  border: none;
+  font-size: xx-small;
+  background-color: var(--tertiary-color);
+  color: var(--primary-color);
+  border-radius: 2rem;
+}
+
+.formInput,
+.formInput:focus {
+  background-color: var(--quad-color);
+  box-shadow: none;
+  border-radius: 2rem;
+}
+
+.profileName {
+  font-size: larger;
+  text-decoration: underline;
+}
+
+.messageInput {
+  display: flex;
+}
